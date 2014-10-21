@@ -22,7 +22,6 @@ var lfxURL = function(){
   chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function(tabs){
     var url = tabs[0].url;
     var title = tabs[0].title;
-    console.log('TABS', tabs);
     post(url, title);
   });
 };
