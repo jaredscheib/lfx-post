@@ -6,8 +6,8 @@
 
 var post = function(currentUrl){
   // TODO: Gmail OAuth connection
-  var message = {to: 'problems@letsfix.net',subject: pageTitle, message: currentUrl};
-  gmailSend(message); //not finished
+  var message = {to: 'problems@letsfix.net', subject: pageTitle, message: currentUrl};
+  // gmailSend(message); //not finished
 };
 
 var gmailSend = function(content){
